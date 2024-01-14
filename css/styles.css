@@ -1,0 +1,181 @@
+:root {
+    --slate:         #434455;
+    --white:         #ffffff;
+    --iris:          #4d5ae5;
+    --navy-blue:     #2E2F42;
+    --blue:          #404bbf;
+    --cloud:         #F4F4FD;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+.container { 
+    max-width: 1148px;
+    padding-left: 10px;  
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+span {
+    color: var(--navy-blue);
+
+}
+
+.color-change{
+    color: var(--navy-blue);
+    font-size: 16px;
+    font-weight: 500; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.color-change:hover {
+    color: var(--blue);
+}
+
+.color-change:focus {
+    color:var(--blue)
+}
+
+.contact-information_header {
+    font-style: normal;
+}
+
+.social-link{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.social-link:focus {
+    color: var(--blue);
+}
+
+.social-link:hover {
+    color: var(--blue);
+}
+
+.section-effective-solutions {
+    background-color: var(--navy-blue);
+}
+
+.one-tittle {
+    color: var(--white);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+}
+
+.section-effective-solutions_button {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--iris);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 16px;
+    font-style: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+
+.section-effective-solutions_button:hover {
+    background-color: var(--blue);
+}
+
+.section-effective-solutions_button:focus {
+    background-color: var(--blue);
+}
+
+.three-tittle {
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.text {
+    color: var(--slate);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.section-our-team {
+    background-color: var(--cloud);
+}
+
+.section-description_first-point{
+    background-color: var(--white);
+}
+
+.two-tittle {
+    color: var(--navy-blue);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.footer{
+    background-color: var(--navy-blue);
+}
+
+.text-logo{
+    color:var(--cloud) ;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+.logo-footer .span-footer {
+    color: var(--cloud);
+}
