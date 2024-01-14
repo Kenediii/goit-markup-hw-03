@@ -1,3 +1,4 @@
+
 :root {
     --slate:         #434455;
     --white:         #ffffff;
@@ -283,4 +284,8 @@ span {
 }
 .logo-footer .span-footer {
     color: var(--cloud);
+}
+
+.visually-hidden{
+    
 }
