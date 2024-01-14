@@ -196,6 +196,10 @@ span {
     width: calc((100% - 72px) / 4);
 }
 
+.section-our-team {
+    padding: 120px 0;
+}
+
 .two-tittle {
     color: var(--navy-blue);
     font-size: 36px;
