@@ -185,10 +185,6 @@ span {
     padding: 120px 0;
 }
 
-.visually-hidden {
-    display: none;
-  }
-
 .section-description_menu-container {
     display: flex;
     gap: 24px;
