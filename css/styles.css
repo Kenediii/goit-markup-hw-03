@@ -251,6 +251,8 @@ span {
     margin-bottom: 8px;
 }
 
+.visually-hidden
+
 .footer {
     background-color: var(--navy-blue);
 }
