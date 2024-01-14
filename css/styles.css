@@ -192,7 +192,7 @@ span {
 }
 
 .section-description_menu-container_li {
-    width: calc((100% -72px) /4);
+    width: calc((100% - 72px) / 4);
 }
 
 .two-tittle {
