@@ -109,6 +109,7 @@ span {
 .social-link:hover {
     color: var(--blue);
 }
+/* перша секція */
 
 .section-effective-solutions {
     background-color: var(--navy-blue);
@@ -183,6 +184,10 @@ span {
 
 .section-description {
     padding: 120px 0;
+}
+
+.visually-hidden {
+    visibility: hidden;
 }
 
 .section-description_menu-container {
