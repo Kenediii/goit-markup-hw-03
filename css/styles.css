@@ -159,6 +159,7 @@ span {
     line-height: 24px;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .text {
@@ -169,6 +170,7 @@ span {
     line-height: 24px;
     letter-spacing: 0.32px;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .section-our-team {
@@ -209,6 +211,21 @@ span {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
+}
+
+.section-our-team_menu-container {
+    display: flex;
+    gap: 24px;
+}
+
+.section-description_first-point {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.container-our-team {
+    padding: 32px 0;
 }
 
 .footer {
