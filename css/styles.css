@@ -255,6 +255,7 @@ span {
 
 .footer {
     background-color: var(--navy-blue);
+    padding: 100px 0;
 }
 
 .text-logo {
@@ -274,6 +275,8 @@ span {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-footer .span-footer {
     color: var(--cloud);
