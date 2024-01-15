@@ -19,6 +19,10 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     display: block;
 }
@@ -37,7 +41,9 @@ body {
     margin-right: auto;  
 }
 
-.hheader {
+/* панель навігації */
+
+.header {
     border-bottom: 1px solid var(--cornflower);
 }
 
@@ -78,6 +84,7 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .color-change:hover {
@@ -90,6 +97,9 @@ span {
 
 .contact-information_header {
     font-style: normal;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
 .navigation_address {
@@ -101,6 +111,7 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    display: block;
 }
 
 .social-link:focus {
@@ -111,6 +122,11 @@ span {
     color: var(--blue);
 }
 /* перша секція */
+
+.wrap-button {
+    display: flex;
+    justify-content: center;
+}    
 
 .section-effective-solutions {
     background-color: var(--navy-blue);
@@ -126,6 +142,8 @@ span {
     letter-spacing: 1.12px;
     text-align: center;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .section-effective-solutions_button {
@@ -153,6 +171,30 @@ span {
     background-color: var(--blue);
 }
 
+/* друга секція*/
+
+.section-description_tittle{
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.section-description_text {
+    color: var(--slate);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 8px;
+}
+
+/* це буде для третьої секції
+
 .three-tittle {
     color: var(--navy-blue);
     font-size: 20px;
@@ -175,6 +217,10 @@ span {
     text-align: center;
 }
 
+*/
+
+/* третя секція*/
+
 .section-our-team {
     background-color: var(--cloud);
 }
@@ -191,17 +237,27 @@ span {
     visibility: hidden;
 }
 
-.section-description_menu-container {
-    display: flex;
-    gap: 24px;
+
+.section-our-team-tittle {
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
-.section-description_menu-container_li {
-    width: calc((100% - 72px) / 4);
-}
-
-.section-our-team {
-    padding: 120px 0;
+.section-our-team-text {
+    color: var(--slate);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .two-tittle {
@@ -214,6 +270,19 @@ span {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
+}
+
+.section-description_menu-container {
+    display: flex;
+    gap: 24px;
+}
+
+.section-description_menu-container_li {
+    width: calc((100% - 72px) / 4);
+}
+
+.section-our-team {
+    padding: 120px 0;
 }
 
 .section-our-team_menu-container {
@@ -230,6 +299,8 @@ span {
     padding: 32px 0;
 }
 
+/* четверта секція*/
+
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -237,6 +308,25 @@ span {
 
 .portfolio-tittle {
     margin-bottom: 72px;
+}
+
+.portfolio-tittle {
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.portfolio-text {
+    color: var(--slate);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 .portfolio_menu-container {
@@ -254,8 +344,9 @@ span {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
-    margin-bottom: 8px;
 }
+
+/* футер */
 
 .footer{
     background-color: var(--navy-blue);
@@ -269,6 +360,7 @@ span {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.02em;
+    width: 264px;
 }
 
 .logo-footer {
