@@ -308,12 +308,13 @@ span {
 
 .portfolio-tittle {
     color: var(--navy-blue);
-    font-size: 20px;
+    font-size: 36px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
+    font-weight: 700;
+    line-height: 40px;
     letter-spacing: 0.02em;
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .portfolio-text {
