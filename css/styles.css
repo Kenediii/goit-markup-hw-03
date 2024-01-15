@@ -123,11 +123,6 @@ span {
 }
 /* перша секція */
 
-.wrap-button {
-    display: flex;
-    justify-content: center;
-}    
-
 .section-effective-solutions {
     background-color: var(--navy-blue);
     padding: 188px 0;
@@ -161,6 +156,8 @@ span {
     height: 56px;
     border: none;
     border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 
 .section-effective-solutions_button:hover {
